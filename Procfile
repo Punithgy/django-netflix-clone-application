@@ -1,0 +1,1 @@
+web: gunicorn netflix_site.wsgi:appilcation --bind 0.0.0.0:$PORT
